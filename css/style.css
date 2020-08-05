@@ -1,0 +1,9 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Roboto';
+    color: #505962;
+}
+
+.navbar {
+    text-transform: uppercase;
+}
