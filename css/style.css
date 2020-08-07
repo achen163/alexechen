@@ -29,7 +29,7 @@ body{
 
 /*Landing page aka home page */
  .home-inner{
-    background-image: url(../img/taiwanmountain1.JPG);
+    background-image: url(../img/taiwanmountain1resize.jpg);
     background-repeat: no-repeat;
     background-size: auto;
     
@@ -39,10 +39,48 @@ body{
     width: 100%;
     max-width: 100%;
     position: absolute;
-    top: 40%;
+    top: 38%;
     z-index: 1;
     color: white;
     text-transform: uppercase;
     letter-spacing: 0.5rem;
 
 }
+
+.caption h1{
+    font-size: 3.8rem;
+    font-weight: 600;
+    letter-spacing: .3rem;
+    padding-bottom: 1.2rem;
+    text-shadow: .1rem .1rem .6rem black;
+}
+
+.caption h3{
+    font-style: italic;
+    font-size: 2 rem;
+    letter-spacing: .3rem;
+    padding-bottom: 1.2rem;
+    text-shadow: .1rem .1rem .5rem black;
+}
+
+.offset .container-fluid .adding-image .about-image > img {
+    padding-top: 30px;
+    padding-left: 50px;
+    height: 700px;
+    width: 550px;
+}
+
+h2.title{
+    padding-top: 13rem;
+    font-size: 35px;
+    padding-bottom: 3rem;
+    font-weight: 600;
+}
+
+.paragraph .para{
+    font-size: 20px;
+    padding-right: 10rem;
+    
+    
+}
+
