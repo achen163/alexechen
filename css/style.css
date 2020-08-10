@@ -64,23 +64,36 @@ body{
 }
 
 .offset .container-fluid .adding-image .about-image > img {
-    padding-top: 30px;
+    padding-top: 50px;
     padding-left: 50px;
     height: 700px;
     width: 550px;
 }
 
 h2.title{
-    padding-top: 13rem;
+    padding-top: 12rem;
     font-size: 35px;
-    padding-bottom: 3rem;
+    padding-bottom: 1.5rem;
     font-weight: 600;
 }
 
-.paragraph .para{
+.paragraph{
     font-size: 20px;
     padding-right: 10rem;
     
     
 }
+
+h1.languageheader{
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+h1.technologyheader {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+
+
 
