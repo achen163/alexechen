@@ -68,6 +68,8 @@ body{
     padding-left: 50px;
     height: 700px;
     width: 550px;
+    padding-bottom: 15px;
+    
 }
 
 h2.title{
@@ -75,25 +77,66 @@ h2.title{
     font-size: 35px;
     padding-bottom: 1.5rem;
     font-weight: 600;
+    text-align: left;
 }
 
 .paragraph{
     font-size: 20px;
     padding-right: 10rem;
-    
-    
+    padding-bottom: 10rem;
 }
 
-h1.languageheader{
+h1.sectionheader{
+    font-size: 5rem;
+    text-align: center;
+    padding-top: 3rem;
+    text-decoration: underline;
+    color:  rgba(76, 125, 139, 0.8);
+    font-weight: 500;
+    letter-spacing: .1rem;
+    padding-bottom: 1rem;
+}
+
+
+
+h1.skillsminiheader {
     text-align: center;
     padding-bottom: 3rem;
+    font-weight: 500;
+    font-size: 3rem;
+    letter-spacing: .1rem;
+    color: rgba(76, 125, 139, 0.8);
 }
 
-h1.technologyheader {
+ul.tech{
+    columns: 2;
+    font-size: 2rem;
+    padding-left: 7.5rem;
+    color: rgb(80, 82, 83);
+    
+
+}
+#about-me{
+    background-color: rgba(211, 211, 211, 0.46);
+}
+#Skills{
+    background-color:  rgba(211, 211, 211, 0.26);
+    padding-bottom: 10rem;
+}
+
+
+h3.project1header{
+    padding-bottom: 1rem;
     text-align: center;
-    padding-bottom: 3rem;
+    font-size: 3rem;
+   
 }
 
-
+p.project1para{
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    font-size: 1.5rem;
+}
 
 

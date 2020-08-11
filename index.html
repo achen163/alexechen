@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <!-- Fixed CSS-->
     <link rel="stylesheet" href="./css/fixed.css">
-
-
+    <!-- Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
@@ -100,10 +100,13 @@
   
 
     <div id = "Skills" class="offset">
+        <h1 class="sectionheader">
+            Skills:
+        </h1>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-6 col-md-12 languages">
-                    <h1 class="languageheader">
+                    <h1 class="skillsminiheader">
                         Languages:
                     </h1>      
                     <div class="row text-center">
@@ -132,36 +135,41 @@
 
                 </div>
                 <div class="col-lg-6 col-md-12 technologies">
-                    <h1 class="technologyheader">
+                    <h1 class="skillsminiheader">
                         Technology/Tools:
                     </h1>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="techimage">
-                            <img src="./img/bootstrap.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="techimage">
-                            <img src="./img/bootstrap.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="techimage">
-                            <img src="./img/bootstrap.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="techimage">
-                            <img src="./img/bootstrap.png" alt="">
-                        </div>
-                    </div>
+                        <ul class="tech">
+                            <li>Github</li>
+                            <li>VsCode</li>
+                            <li>Bootstrap</li>
+                            <li>Embedded Systems</li>
+                            <li>LaTeX</li>
+                            <li>MatLab</li>
+                            <li>Assembly</li>
+                            <li>Currently learning more...</li>
+                        </ul>
+                   
                 </div>
             </div>
         </div>
     </div>
     
     <div id = "Projects" class="offset">
-
+        <h1 class="sectionheader">
+           My Projects:
+        </h1>
+        <div class="project1">
+            <h3 class="project1header">
+                R-Shell: 
+            </h3>
+            <p class="project1para">
+                Used C++ to implement a simple version of a shell that has the ability to read and execute user inputted commands. Upon receiving an input from user, I used the boost library to implement a tokenizer function. Then, a simplified shunting-yard algorithm was used to help us parse the user commands into postfix notation. The final product is able to execute basic shell commands and can handle the logic of multiple commands being entered using connectors such as "&&" and "||".
+            </p>
+            <i class="fab fa-github-square">
+                Hello
+            </i>
+        
+        </div>
     </div>
     
     <div id = "Extras/Contact" class="offset">
