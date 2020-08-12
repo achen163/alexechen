@@ -77,7 +77,7 @@ body{
     text-align: center;
     transition: transform 0.75s;
     transform-style: preserve-3d;
-    left: 25%;
+    left: 35%;
     top: 25%;
 
 }
@@ -115,6 +115,7 @@ body{
   .flip-card-back .details h2 > span{
       font-size: 1rem;
       padding-top: 1rem;
+      color: rgba(211, 211, 211, 0.671);
   }
 
 .social-icons{
@@ -227,12 +228,34 @@ p.projectpara{
     padding-bottom: 2.5rem;
 }
 
-h3.extraspara{
+h3.extrasheader{
     text-align: center;
     font-size: 1.7rem;
-    padding-left: 400px;
-    padding-right: 400px;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
+   
+}
+
+.maps{
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+p.extraspara {
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+h3.extrasheader2{
+    text-align: center;
+    padding-right: 200px;
+    padding-bottom: 1rem;
+}
+
+p.extraspara2{
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 300px;
 }
 
 #Extras{
@@ -240,9 +263,32 @@ h3.extraspara{
     
 }
 
+.swiper-container{
+    height: 500px;
+    width: 600px;
+    margin: 24px auto;
+}
+
+.swiper-container .swiper-slide{
+   
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+    color: honeydew;
+    text-shadow: .1rem .1rem .6rem black;
+}
+
+.mainbody{
+    padding:15px;
+}
+
+
+
 #Contact{
     background-color:rgba(57, 132, 153, 0.2) ;
-    margin-top: -8px;
+  
 }
 
 .contactme{
